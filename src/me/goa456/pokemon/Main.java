@@ -1,9 +1,16 @@
 package me.goa456.pokemon;
 
-public class Main {
+import javax.swing.JFrame;
+
+public class Main extends JFrame {
 	
 	public static void main(String[]args) {
 		System.out.println("Loading Pokemon by goa456 / teamalpha5441");
-		//TODO Add the fuc*ing game
+		new Main();
+	}
+	
+	public Main() {
+		//add(new Board());
+		// http://zetcode.com/tutorials/javagamestutorial/basics/
 	}
 }
